@@ -266,5 +266,3 @@ php -i | grep allow_url_include
 - **Submission Date:** May 30, 2026
 
 ---
-
-&copy; 2026 NovaCorp HR Portal — CYS 538 Project
