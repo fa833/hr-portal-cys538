@@ -1,0 +1,14 @@
+# Uploaded CVs
+uploads/*
+!uploads/.gitkeep
+
+# Security logs
+logs/*
+!logs/.gitkeep
+
+# PHP environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
