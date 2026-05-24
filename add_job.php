@@ -63,3 +63,4 @@ renderHeader('Add New Job', 'admin');
     </div>
 </div>
 <?php renderFooter(); ?>
+
