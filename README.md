@@ -55,8 +55,8 @@ hr_portal/
 ├── my_applications.php     # Applicant application tracker
 ├── admin.php               # Admin panel (admin only)
 ├── add_job.php             # Post new job (admin only)
-├── view.php                # ⚠️ VULNERABLE file viewer (LFI demo)
-├── view_secure.php         # ✅ SECURE file viewer (countermeasures)
+├── view.php                # VULNERABLE file viewer (LFI demo)
+├── view_secure.php         # SECURE file viewer (countermeasures)
 ├── logout.php              # Session destroy + redirect
 ├── uploads/                # CV file storage
 └── logs/                   # Security event logs
