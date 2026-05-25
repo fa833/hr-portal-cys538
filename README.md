@@ -258,11 +258,3 @@ php -i | grep allow_url_include
 
 ---
 
-## Course Information
-
-- **Course:** CYS 538 — Web Technology and Security
-- **University:** Imam Abdulrahman Bin Faisal University
-- **Vulnerability Chosen:** RFI/LFI
-- **Submission Date:** May 30, 2026
-
----
